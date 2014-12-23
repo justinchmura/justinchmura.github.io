@@ -1,0 +1,156 @@
+---
+---
+
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+$header-color: #505d63;
+
+#header {
+    background: #e7e7e7 url('/images/header-bg.png') repeat;
+    border-bottom: solid 1px #ccd0d4;
+    border-top: solid 10px #3a7aa6;
+    color: $header-color;
+    padding-bottom: 35px;
+    padding-top: 20px;
+    
+    p {
+        font-size: 13px;
+        text-shadow: 1px 1px 1px #fff;
+    }
+    
+    .media-body {
+        padding-right: 15px;
+    }
+}
+
+#logo {
+    color: $header-color;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#download {
+    color: $header-color;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 28px;
+    
+    &:hover {
+        text-decoration: none;
+    }
+    
+    > .glyphicon {
+        font-size: 30px;
+        vertical-align: text-bottom;
+    }
+}
+
+#about {
+    border-right: solid 1px #ccd0d4;
+    
+    h4 {
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+
+#signature {
+    font-family: 'Pacifico', cursive;
+    font-size: 18px !important;
+}
+
+.email {
+    &:before {
+        content: attr(data-user) "\0040";
+    }
+    
+    &:after {
+        content: attr(data-domain);
+    }
+}
+
+#resume {
+    color: #505D63;
+
+    section {
+        margin-top: 35px;
+        
+        > header {
+            margin-bottom: 35px;
+            border-bottom: double 4px #ccd0d4;
+            
+            h3 {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+#professional {
+    h5 {
+        font-weight: bold;
+    }
+    
+    p {
+        font-size: 13px;
+        margin: 25px 0;
+    }
+    
+    .row {
+        margin-bottom: 25px;
+    }
+}
+
+#awards {
+    p {
+        padding: 10px 30px;
+    }
+}
+
+#footer {
+    background: #e7e7e7 url('/images/header-bg.png') repeat;
+    border-bottom: solid 10px #3a7aa6;
+    border-top: solid 1px #ccd0d4;
+    color: $header-color;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.icon {
+    > svg {
+        display: inline-block;
+        height: 16px;
+        vertical-align: middle;
+        width: 16px;
+        
+        path {
+            fill: #ddd;
+        }
+    }
+}
+
+.light-block {
+    background: #e4e7eb;
+    color: #627076;
+    font-size: 11px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.dark-block {
+    background: #627076;
+    color: #fdfdfd;
+    font-size: 11px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.blue-block {
+    background: #3a7aa6;
+    color: #fdfdfd;
+    font-size: 11px;
+    padding: 10px;
+    text-transform: uppercase;
+}

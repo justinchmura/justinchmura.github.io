@@ -47,6 +47,19 @@ $header-color: #505d63;
     }
 }
 
+#social {
+    margin-top: 20px;
+    
+    a:hover, a:visited, a:active {
+        text-decoration: none;
+    }
+    
+    .fa, .glyphicon {
+        font-size: 24px;
+        margin-right: 25px;
+    }
+}
+
 #about {
     border-right: solid 1px #ccd0d4;
     
@@ -141,14 +154,6 @@ $header-color: #505d63;
 
 .dark-block {
     background: #627076;
-    color: #fdfdfd;
-    font-size: 11px;
-    padding: 10px;
-    text-transform: uppercase;
-}
-
-.blue-block {
-    background: #3a7aa6;
     color: #fdfdfd;
     font-size: 11px;
     padding: 10px;

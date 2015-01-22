@@ -22,6 +22,14 @@ $header-color: #505d63;
     .media-body {
         padding-right: 15px;
     }
+    
+    #social a {
+        color: $header-color;
+        
+        &:hover {
+            color: $header-color;
+        }
+    }
 }
 
 #logo {
